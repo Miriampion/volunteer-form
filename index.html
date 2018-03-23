@@ -67,68 +67,87 @@
 
       <fieldset>
         <legend>Address</legend>
-
-          <div class="unit">
-            <label for="address">Street address</label>
-            <input id="address" name="street-address" required>
+          <div class="grid"
+            <div class="unit">
+              <label for="address">Street address</label>
+              <input id="address" name="street-address" required>
+            </div>
+            <div class="unit">
+              <label for="city">City</label>
+              <input id="city" name="city" required>
+            </div>
+            <div class="unit">
+              <label for="postal">Postal code</label>
+              <input id="postal" name="postalcode" required>
+            </div>
+            <div class="unit">
+              <label for="province">Province</label>
+              <select id="province" name="province" required>
+                <option>Select a province</option>
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland & Labrador</option>
+                <option>Northwest Territories</option>
+                <option>Nova Scotia</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>Prince Edward Island</option>
+                <option>Québec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+            </div>
           </div>
-          <div class="unit">
-            <label for="city">City</label>
-            <input id="city" name="city" required>
-          </div>
-          <div class="unit">
-            <label for="postal">Postal code</label>
-            <input id="postal" name="postalcode" required>
-          </div>
-          <div class="unit">
-            <label for="province">Province</label>
-            <select id="province" name="province" required>
-              <option>Select a province</option>
-              <option>Alberta</option>
-              <option>British Columbia</option>
-              <option>Manitoba</option>
-              <option>New Brunswick</option>
-              <option>Newfoundland & Labrador</option>
-              <option>Northwest Territories</option>
-              <option>Nova Scotia</option>
-              <option>Nunavut</option>
-              <option>Ontario</option>
-              <option>Prince Edward Island</option>
-              <option>Québec</option>
-              <option>Saskatchewan</option>
-              <option>Yukon</option>
-          </div>
-
       </fieldset>
 
       <fieldset>
-        <div class="unit">
-          <label for="activities">What activities are you interested in helping with?</label>
-          <input id="activities" type="checkbox">
-            - Digging holes
-            - Getting dirty
-               Lifting heavy objects
-             Driving people
-            - Transporting trees
-              - Taking photos
-            - Online publishing
-              - Managing people
-        </div>
-        <div> class="unit"
-          <label for="experience">Do you have any experience with the following?</label>
-          <input id="experience" type="checkbox">
-            - Shovels
-            - Hand-held GPS
-            - Writing & blogging
-            - Photography
-            - Trail & hill climbing
-            - Bush craft
-            - ATVs
-            - Plant identification
-            - Special event planning
-            - Speaking to groups
-        </div>
-      </fieldset>
+        <legend>What activities are you interested in helping with?</legend>
+        <div class="grid">
+          <div class="unit">
+              <input type="checkbox" id="digging-holes">
+              <label for="digging-holes">Digging holes</label>
+              <input type="checkbox" id="getting-dirty">
+              <label for="getting-dirty">Getting dirty</label>
+              <input type="checkbox" id="heavy">
+              <label for="heavy">Lifting heavy objects</label>
+              <input type="checkbox" id="driving">
+              <label for="driving">Driving people</label>
+              <input type="checkbox" id="transport">
+              <label for="transport">Transporting trees</label>
+              <input type="checkbox" id="photos">
+              <label for="photos">Taking photos</label>
+              <input type="checkbox" id="publishing">
+              <label for="publishing">Online publishing</label>
+              <input type="checkbox" id="managing">
+              <label for="managing">Managing people</label>
+          </div>
+          <div class="unit">
+            <label for="experience">Do you have any experience with the following?</label>
+            <input id="experience" type="checkbox">
+              <input type="checkbox" id="shovel">
+              <label for="shovel">Shovels</label>
+              <input type="checkbox" id="gps">
+              <label for="gps">Hand-held GPS</label>
+              <input type="checkbox" id="writing">
+              <label for="writing">Writing & blogging</label>
+              <input type="checkbox" id="photography">
+              <label for="photography">Photography</label>
+              <input type="checkbox" id="hills">
+              <label for="hills">Trail & hill climbing</label>
+              <input type="checkbox" id="craft">
+              <label for="craft">Bush craft</label>
+              <input type="checkbox" id="atv">
+              <label for="atv">ATVs</label>
+              <input type="checkbox" id="plants">
+              <label for="plants">Plant Identification</label>
+              <input type="checkbox" id="events">
+              <label for="events">Special event planning</label>
+              <input type="checkbox" id="groups">
+              <label for="groups">Speaking to groups</label>
+          </div>
+        </fieldset>
+      </div>
 
       <fieldset>
 
