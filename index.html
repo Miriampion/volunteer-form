@@ -16,33 +16,60 @@
   <h1>Apply to be a tree planter</h1>
   <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
 
-  Personal details
+<form>
+<fieldset>
+  <legend>Personal details</legend>
+<div class="grid">
 
-  Full name
-  Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.
+  <div class="unit">
+    <label for="fullname">Full name</label>
+    <input id="fullname" required>
+      Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”
+    </div>
 
-  What should we call you?
+
+  <div class="unit">
+    <label for="namecall">What should we call you?</label>
+    <input id="namecall" required>
   What all your friends call you, e.g. “Liz”.
 
-  Date of birth
+  <div class="unit"
+    <label for="date-of-birth">Date of birth</label>
+    <input type="date" id="date-of-birth" required>
+  </div>
 
-  T-shirt size
+  <div class="unit">
+    <label for ="tshirt-size">T-shirt size</label>
+    <select id ="tshirt-size" name="tshirt-size">
   - Select a t-shirt size
-  - Fitted: XS
-  - Fitted: S
-  - Fitted: M
-  - Fitted: L
-  - Fitted: XL
-  - Straight-cut: XS
-  - Straight-cut: S
-  - Straight-cut: M
-  - Straight-cut: L
-  - Straight-cut: XL
+      <option>Fitted: XS</option>
+      <option>Fitted: S</option>
+      <option>Fitted: M</option>
+      <option>Fitted: L</option>
+      <option>Fitted: XL</option>
+      <option>Straight-cut: XS</option>
+      <option>Straight-cut: S</option>
+      <option>Straight-cut: M</option>
+      <option>Straight-cut: L</option>
+      <option>Straight-cut: XL</option>
+  </div>
 
-  Email
-  Phone number (optional)
 
-  Address
+  <div class="unit">
+  <label for ="email">Email</label>
+  <input type="email" id="email" name="email" required>
+  </div>
+
+  <div class="unit">
+  <label for="number">Phone number (optional)</label>
+  <selct  type="tel" id="number" required>
+  </div>
+</div>
+
+</fieldset>
+
+<fieldset>
+    Address
   Street address
   City
   Postal code
@@ -62,7 +89,9 @@
   - Québec
   - Saskatchewan
   - Yukon
+</fieldset>
 
+<fieldset>
   What activities are you interested in helping with?
   - Digging holes
   - Getting dirty
@@ -84,6 +113,9 @@
   - Plant identification
   - Special event planning
   - Speaking to groups
+</fieldset>
+
+<fieldset>
 
   Do you have a valid driver’s license?
   - Yes
@@ -96,13 +128,20 @@
   Do you have up-to-date first-aid certification?
   - Yes
   - No
+</fieldset>
+
+<fieldset>
 
   Please let us know any comments or questions you may have.
 
+<fieldset>
+
   Apply
 
-  © Tree Hugger International Organization
+</fielsdset>
 
+  © Tree Hugger International Organization
+  </form>
   </section>
 
 </body>
