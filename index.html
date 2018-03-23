@@ -11,138 +11,153 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body>
-  <section>Volunteer Sign-up
+    <input type="hidden" name="_subject" value="Volunteer Sign Up">
 
-  <h1>Apply to be a tree planter</h1>
-  <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-
-<form>
-<fieldset>
-  <legend>Personal details</legend>
-<div class="grid">
-
-  <div class="unit">
-    <label for="fullname">Full name</label>
-    <input id="fullname" required>
-      Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”
+    <div class="unit">
+      <h1>Apply to be a tree planter</h1>
+      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
+    <form>
+      <fieldset>
+        <legend>Personal details</legend>
+        <div class="grid">
+          <div class="unit">
+            <label for="fullname">Full name</label>
+            <input id="fullname" required>
+            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”<p>
+          </div>
+          <div class="unit">
+            <label for="namecall">What should we call you?</label>
+            <input id="namecall" required>
+            <p>What all your friends call you, e.g. “Liz”.<p>
+          </div>
+          <div class="unit"
+            <label for="date-of-birth">Date of birth</label>
+            <input type="date" id="date-of-birth" required>
+          </div>
+
+          <div class="unit">
+            <label for="tshirt-size">T-shirt size</label>
+            <select id="tshirt-size" name="tshirt-size" required>
+              <option>Select a t-shirt size</option>
+              <option>Fitted: XS</option>
+              <option>Fitted: S</option>
+              <option>Fitted: M</option>
+              <option>Fitted: L</option>
+              <option>Fitted: XL</option>
+              <option>Straight-cut: XS</option>
+              <option>Straight-cut: S</option>
+              <option>Straight-cut: M</option>
+              <option>Straight-cut: L</option>
+              <option>Straight-cut: XL</option>
+          </div>
 
 
-  <div class="unit">
-    <label for="namecall">What should we call you?</label>
-    <input id="namecall" required>
-  What all your friends call you, e.g. “Liz”.
+          <div class="unit xs-1-2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
 
-  <div class="unit"
-    <label for="date-of-birth">Date of birth</label>
-    <input type="date" id="date-of-birth" required>
+          <div class="unit">
+            <label for="phone-number">Phone number(optional)</label>
+            <select type="tel" id="phone-number" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Address</legend>
+
+          <div class="unit">
+            <label for="address">Street address</label>
+            <input id="address" name="street-address" required>
+          </div>
+          <div class="unit">
+            <label for="city">City</label>
+            <input id="city" name="city" required>
+          </div>
+          <div class="unit">
+            <label for="postal">Postal code</label>
+            <input id="postal" name="postalcode" required>
+          </div>
+          <div class="unit">
+            <label for="province">Province</label>
+            <select id="province" name="province" required>
+              <option>Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+          </div>
+
+      </fieldset>
+
+      <fieldset>
+        <div class="unit">
+          <label for="activities">What activities are you interested in helping with?</label>
+          <input id="activities" type="checkbox">
+            - Digging holes
+            - Getting dirty
+               Lifting heavy objects
+             Driving people
+            - Transporting trees
+              - Taking photos
+            - Online publishing
+              - Managing people
+        </div>
+        <div> class="unit"
+          <label for="experience">Do you have any experience with the following?</label>
+          <input id="experience" type="checkbox">
+            - Shovels
+            - Hand-held GPS
+            - Writing & blogging
+            - Photography
+            - Trail & hill climbing
+            - Bush craft
+            - ATVs
+            - Plant identification
+            - Special event planning
+            - Speaking to groups
+        </div>
+      </fieldset>
+
+      <fieldset>
+
+        Do you have a valid driver’s license?
+          - Yes
+          - No
+
+        Do you have a pick-up truck you’d be willing to use?
+          - Yes
+          - No
+
+        Do you have up-to-date first-aid certification?
+          - Yes
+          - No
+      </fieldset>
+
+      <fieldset>
+
+        Please let us know any comments or questions you may have.
+
+      <fieldset>
+
+        <button type="submit">Apply</button>
+
+        © Tree Hugger International Organization
+      </fielsdset>
+
+    </form>
   </div>
-
-  <div class="unit">
-    <label for ="tshirt-size">T-shirt size</label>
-    <select id ="tshirt-size" name="tshirt-size">
-  - Select a t-shirt size
-      <option>Fitted: XS</option>
-      <option>Fitted: S</option>
-      <option>Fitted: M</option>
-      <option>Fitted: L</option>
-      <option>Fitted: XL</option>
-      <option>Straight-cut: XS</option>
-      <option>Straight-cut: S</option>
-      <option>Straight-cut: M</option>
-      <option>Straight-cut: L</option>
-      <option>Straight-cut: XL</option>
-  </div>
-
-
-  <div class="unit">
-  <label for ="email">Email</label>
-  <input type="email" id="email" name="email" required>
-  </div>
-
-  <div class="unit">
-  <label for="number">Phone number (optional)</label>
-  <selct  type="tel" id="number" required>
-  </div>
-</div>
-
-</fieldset>
-
-<fieldset>
-    Address
-  Street address
-  City
-  Postal code
-
-  Province
-  - Select a province
-  - Alberta
-  - British Columbia
-  - Manitoba
-  - New Brunswick
-  - Newfoundland & Labrador
-  - Northwest Territories
-  - Nova Scotia
-  - Nunavut
-  - Ontario
-  - Prince Edward Island
-  - Québec
-  - Saskatchewan
-  - Yukon
-</fieldset>
-
-<fieldset>
-  What activities are you interested in helping with?
-  - Digging holes
-  - Getting dirty
-  - Lifting heavy objects
-  - Driving people
-  - Transporting trees
-  - Taking photos
-  - Online publishing
-  - Managing people
-
-  Do you have any experience with the following?
-  - Shovels
-  - Hand-held GPS
-  - Writing & blogging
-  - Photography
-  - Trail & hill climbing
-  - Bush craft
-  - ATVs
-  - Plant identification
-  - Special event planning
-  - Speaking to groups
-</fieldset>
-
-<fieldset>
-
-  Do you have a valid driver’s license?
-  - Yes
-  - No
-
-  Do you have a pick-up truck you’d be willing to use?
-  - Yes
-  - No
-
-  Do you have up-to-date first-aid certification?
-  - Yes
-  - No
-</fieldset>
-
-<fieldset>
-
-  Please let us know any comments or questions you may have.
-
-<fieldset>
-
-  Apply
-
-</fielsdset>
-
-  © Tree Hugger International Organization
-  </form>
-  </section>
 
 </body>
 </html>
