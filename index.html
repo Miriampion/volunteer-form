@@ -31,7 +31,7 @@
             <input id="namecall" required>
             <p>What all your friends call you, e.g. “Liz”.<p>
           </div>
-          <div class="unit xs-1"
+          <div class="unit xs-1">
             <label for="date-of-birth">Date of birth</label>
             <input type="date" id="date-of-birth" required>
           </div>
@@ -67,7 +67,7 @@
 
       <fieldset>
         <legend>Address</legend>
-          <div class="grid"
+          <div class="grid">
             <div class="unit">
               <label for="address">Street address</label>
               <input id="address" name="street-address" required>
@@ -151,17 +151,25 @@
 
       <fieldset>
 
-        Do you have a valid driver’s license?
-          - Yes
-          - No
+        <div>
+          Do you have a valid driver’s license?
+          <input id="valid" type="radio" name="choice1">
+          <label for="valid">Yes</label>
+          <input id="driver" type="radio" name="choice1">
+          <label for="driver">No</label>
 
         Do you have a pick-up truck you’d be willing to use?
-          - Yes
-          - No
+        <input id="yes" type="radio" name="choice2">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="choice2">
+        <label for="no">No</label>
 
         Do you have up-to-date first-aid certification?
-          - Yes
-          - No
+        <input id="first" type="radio" name="choice3">
+        <label for="first">Yes</label>
+        <input id="aid" type="radio" name="choice3">
+        <label for="aid">No</label>
+
       </fieldset>
 
       <fieldset>
