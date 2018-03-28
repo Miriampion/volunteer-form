@@ -15,12 +15,12 @@
     <input type="hidden" name="_subject" value="Volunteer Sign Up">
 
     <header>
-      <div class="header pad-t gutter-1-2">
+      <div class="header wrapper pad-t gutter-1-2">
         <h1>Apply to be a tree planter</h1>
         <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
-    <form>
+    <form class="wrapper">
       <fieldset>
       <legend class="">Personal details</legend>
           <div class="grid gutter-1-2">
@@ -210,7 +210,7 @@
                     <input type="checkbox" id="events">
                     <label for="events">Special event planning</label>
                   </div>
-                  <div class=" unit xs-1">
+                  <div class="unit xs-1">
                     <input type="checkbox" id="groups">
                     <label for="groups">Speaking to groups</label>
                   </div>
@@ -257,13 +257,14 @@
         </div>
       </fieldset>
 
-      <fieldset>
+      <div>
         <button type="submit">Apply</button>
-        © Tree Hugger International Organization
-      </fieldset>
-
+      </div>
     </form>
 
+    <footer >
+      <p class="wrapper">© Tree Hugger International Organization</p>
+    </footer>
 
 </body>
 </html>

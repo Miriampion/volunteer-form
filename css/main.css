@@ -2,7 +2,8 @@ html {
   font-family: 'Noto Serif', serif;
 }
 
-header {
+header,
+footer {
   background-color: #70ad55;
   color: #fff;
 }
@@ -19,6 +20,12 @@ label {
   border-color: #70ad55;
 }
 
-legend {
+fieldset {
   border: none;
+}
+
+[type="checkbox"] + label::before,
+[type="radio"] + label::before {
+
+  border-color: #70ad55;
 }
