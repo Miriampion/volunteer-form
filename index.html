@@ -11,21 +11,24 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body>
+
     <input type="hidden" name="_subject" value="Volunteer Sign Up">
 
-    <div class="header gutter-1-2">
-      <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-    </div>
+    <header>
+      <div class="header pad-t gutter-1-2">
+        <h1>Apply to be a tree planter</h1>
+        <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      </div>
+    </header>
     <form>
       <fieldset>
         <legend>Personal details</legend>
-        <div class="grid gutter-1-2">
-          <div class="unit xs-1 s-1 m-1-2">
-            <label for="fullname">Full name</label>
-            <input id="fullname" required>
-            <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”</p>
-          </div>
+          <div class="grid gutter-1-2">
+            <div class="unit xs-1 s-1 m-1-2">
+              <label for="fullname">Full name</label>
+              <input id="fullname" required>
+              <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”</p>
+            </div>
 
           <div class="unit xs-1 s-1 m-1-2">
             <label for="namecall">What should we call you?</label>
@@ -39,8 +42,8 @@
           </div>
 
           <div class="unit xs-1 s-1 m-1-2">
-            <label for="tshirt-size">T-shirt size</label>
-            <select id="tshirt-size" name="tshirt-size" required>
+            <label for="tshirt">T-shirt size</label>
+            <select id="tshirt" name="tshirt">
               <option>Select a t-shirt size</option>
               <option>Fitted: XS</option>
               <option>Fitted: S</option>
@@ -62,11 +65,12 @@
 
           <div class="unit xs-1 s-1 m-1-2">
             <label for="phone-number">Phone number(optional)</label>
-            <select type="tel" id="phone-number" required>
+            <input type="tel" id="phone-number" required>
           </div>
         </div>
-
       </fieldset>
+
+      <hr class="pad-t pad-b"></hr>
 
       <fieldset>
         <legend>Address</legend>
@@ -86,6 +90,7 @@
             <div class="unit">
               <label for="province">Province</label>
               <select id="province" name="province" required>
+              <option value="">province</option>
                 <option>Select a province</option>
                 <option>Alberta</option>
                 <option>British Columbia</option>
@@ -100,7 +105,7 @@
                 <option>Québec</option>
                 <option>Saskatchewan</option>
                 <option>Yukon</option>
-               </select>
+              </select>
             </div>
           </div>
       </fieldset>
@@ -159,7 +164,7 @@
             </div>
         </div>
           <div class="">
-            <label for="experience">Do you have any experience with the following?</label>
+            <legend>Do you have any experience with the following?</legend>
             <div class="grid">
               <div class="unit xs-1 m-1-2">
                 <div class="grid">
@@ -217,21 +222,21 @@
       <fieldset>
 
         <div>
-          Do you have a valid driver’s license?
+          <legend>Do you have a valid driver’s license?</legend>
           <input id="valid" type="radio" name="choice1">
           <label for="valid">Yes</label>
           <input id="driver" type="radio" name="choice1">
           <label for="driver">No</label>
         </div>
         <div>
-          Do you have a pick-up truck you’d be willing to use?
+          <legend>Do you have a pick-up truck you’d be willing to use?</legend>
           <input id="yes" type="radio" name="choice2">
           <label for="yes">Yes</label>
           <input id="no" type="radio" name="choice2">
           <label for="no">No</label>
         </div>
         <div>
-          Do you have up-to-date first-aid certification?
+          <legend>Do you have up-to-date first-aid certification?</legend>
           <input id="first" type="radio" name="choice3">
           <label for="first">Yes</label>
           <input id="aid" type="radio" name="choice3">

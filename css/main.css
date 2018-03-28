@@ -1,0 +1,20 @@
+html {
+  font-family: 'Noto Serif', serif;
+}
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input {
+  border-color: #70ad55;
+}
+
+select {
+  border-color: #70ad55;
+}
+
+label {
+  border-color: #70ad55;
+}
