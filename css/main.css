@@ -18,3 +18,7 @@ select {
 label {
   border-color: #70ad55;
 }
+
+.bold {
+  font-weight: bold;
+}
