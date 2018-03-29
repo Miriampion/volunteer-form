@@ -42,8 +42,9 @@ hr {
 
 textarea {
   height: 10em;
+  border-color: #6e8c62;
 }
 
 span {
- color: #6e8c62;
+ color: #70ad55;
 }
