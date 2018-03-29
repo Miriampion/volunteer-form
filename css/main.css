@@ -27,9 +27,15 @@ fieldset {
 [type="checkbox"] + label::before,
 [type="radio"] + label::before {
 
-  border-color: #70ad55;
+  border-color: #6e8c62;
 }
 
 hr {
-  border-color: #6e8c62;
+  border-color: rgba(112, 173, 85, .3);
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  background-color: #6e8c62;
 }
