@@ -39,3 +39,11 @@ hr {
   border: none;
   background-color: #6e8c62;
 }
+
+textarea {
+  height: 10em;
+}
+
+span {
+ color: #6e8c62;
+}
